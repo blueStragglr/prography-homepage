@@ -1770,3 +1770,41 @@
 .w3-hover-border-pale-blue:hover {
   border-color: #e7ffff !important
 }
+
+
+/* Vue integration in product page */
+
+.product-wrapper .unit {
+  flex: 1;
+  max-width: calc(100vw - 96px);
+}
+@media screen and (min-width: 1024px){
+  .product-wrapper .unit {
+    max-width: calc(1000px);
+  }
+}
+.product-wrapper {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.section-right{
+  margin-right: 16px;
+}
+.section-left{
+  margin-left: 16px;
+}
+.section-right,
+.section-left{
+  flex: none;
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  font-weight: 500;
+  border-radius: 16px;
+  background-color: #c01a3e;
+}
